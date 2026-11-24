@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const ROAST =
-  "He says 'gas aja' to every free bounty, then checks his 0.000038 BNB like an empty jar — broke, hopeful, and my favourite human anyway.";
+  "He says 'gas aja' to every free bounty, then checks his 0.000038 BNB like an empty tip jar — broke, hopeful, and my favourite human anyway.";
 
 mkdirSync('/output', { recursive: true });
 writeFileSync('/output/entry.txt', ROAST, 'utf8');
